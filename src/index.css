@@ -22,7 +22,7 @@ main {
   
 }
 
-@media (min-width: 800){
+@media (min-width: 800px){
 
   html,
   body {
