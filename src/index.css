@@ -15,3 +15,15 @@ html {
   box-sizing: border-box;
 
 }
+
+header {
+
+  overflow-x: hidden;
+  
+}
+
+main {
+
+  overflow-x: hidden;
+  
+}
