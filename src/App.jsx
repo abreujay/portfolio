@@ -14,6 +14,7 @@ import git from "./assets/icons8-git-48.png"; // Certifique-se de que o caminho 
 import instagram from "./assets/instagram.png"; // Corrigido o caminho
 import email from "./assets/send-mail.png"; // Corrigido o caminho
 import whatsapp from "./assets/whatsapp.png"; // Corrigido o caminho
+import github from "./assets/github.png"
 
 function App() {
   return (
@@ -235,16 +236,16 @@ function App() {
           <p>Gostou? Entre em contato comigo :D!</p>
           <div className="btn-container">
             <a href="wa.me/5549988450441">
-              <img src="../public/whatsapp-svgrepo-com.svg" alt="whatsapp" />
+              <img src={whatsapp} alt="whatsapp" />
             </a>
             <a href="https://github.com/abreujay">
-              <img src="../public/github-color-svgrepo-com.svg" alt="github" />
+              <img src={github} alt="github" />
             </a>
             <a href="https://www.instagram.com/abreu.jay/">
-              <img src="../public/instagram-svgrepo-com.svg" alt="instagram" />
+              <img src={instagram} alt="instagram" />
             </a>
             <a href="mailto:devmxge@outlook.com">
-              <img src="../public/email-1573-svgrepo-com.svg" alt="instagram" />
+              <img src={email} alt="instagram" />
             </a>
           </div>
         </section>
