@@ -1,6 +1,19 @@
 import { useState } from "react";
 import "./App.css";
 import logo from "../public/jay.jpg";
+import html from "./assets/icons8-html-48.png"; // Certifique-se de que o caminho está correto
+import css from "./assets/icons8-css-48.png"; // Certifique-se de que o caminho está correto
+import javascript from "./assets/icons8-javascript-48.png"; // Corrigido o caminho
+import node from "./assets/icons8-node-js-48.png"; // Corrigido o caminho
+import express from "./assets/icons8-express-js-50.png"; // Corrigido o caminho
+import sql from "./assets/icons8-mysql-48.png"; // Certifique-se de que o caminho está correto
+import react from "./assets/icons8-react-a-javascript-library-for-building-user-interfaces-48.png"; // Corrigido o caminho
+import mongo from "./assets/icons8-mongo-db-48.png"; // Certifique-se de que o caminho está correto
+import cs from "./assets/icons8-c-sharp-logo-64.png"; // Certifique-se de que o caminho está correto
+import git from "./assets/icons8-git-48.png"; // Certifique-se de que o caminho está correto
+import instagram from "./assets/instagram.png"; // Corrigido o caminho
+import email from "./assets/send-mail.png"; // Corrigido o caminho
+import whatsapp from "./assets/whatsapp.png"; // Corrigido o caminho
 
 function App() {
   return (
@@ -156,97 +169,67 @@ function App() {
             </p>
           </div>
         </section>
-        <div class="curve">
+        <div className="curve">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#e4e4e4"
-              fill-opacity="2"
+              fillOpacity="2"
               d="M0,288L1440,192L1440,320L0,320Z"
             ></path>
           </svg>
         </div>
         <section id="skillSec">
-          <h2>Hard Skills</h2>
+          <h2>Skills</h2>
           <h3 id="backendSkill">BackEnd</h3>
           <ul className="back_end_ul">
             <li>
-              <img src="../public/node-js.svg" alt="node" />
+              <img src={node} alt="node" />
             </li>
             <li>
-              <img src="../public/expressjs-icon.svg" alt="express" />
+              <img src={express} alt="express" />
             </li>
           </ul>
 
           <h3 id="frontendSkill">FrontEnd</h3>
           <ul className="front_end_ul">
             <li>
-              <img src="../public/file-type-css.svg" alt="css" />
+              <img src={css} alt="css" />
             </li>
             <li>
-              <img src="../public/file-type-html.svg" alt="html" />
+              <img src={html} alt="html" />
             </li>
             <li>
-              <img src="../public/file-type-reactts.svg" alt="react" />
+              <img src={react} alt="react" />
             </li>
           </ul>
 
           <h3 id="languageSkill">Linguagens de Programação</h3>
           <ul className="languages_ul">
             <li>
-              <img src="../public/javascript-js.svg" alt="javascript" />
+              <img src={javascript} alt="javascript" />
             </li>
             <li>
-              <img src="../public/csharp.svg" alt="csharp" />
+              <img src={cs} alt="csharp" />
             </li>
           </ul>
 
-          <h3 id="dbSkill">Banco de Dados</h3>
+          <h3 id="databaseSkill">Banco de Dados</h3>
           <ul className="database_ul">
             <li>
-              <img src="../public/mysql-original-wordmark.svg" alt="mysql" />
+              <img src={sql} alt="mysql" />
             </li>
             <li>
-              <img src="../public/mongodb-ar21.svg" alt="mongodb" />
+              <img src={mongo} alt="mongodb" />
             </li>
           </ul>
 
           <h3 id="versionSkill">Controle de Versão</h3>
           <ul className="version_ul">
             <li>
-              <img src="../public/git-icon-logo-svgrepo-com.svg" alt="git" />
+              <img src={git} alt="git" />
             </li>
           </ul>
         </section>
-        <div class="curve">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="#48356B"
-              fill-opacity="1"
-              d="M0,288L1440,192L1440,320L0,320Z"
-            ></path>
-          </svg>
-        </div>
-        <section id="softSec">
-          <h2>Soft Skills</h2>
-          <ul softskills_ul>
-            <ul>Pontualidade</ul>
-            <ul>Adaptabilidade</ul>
-            <ul>Empatia</ul>
-            <ul>Proatividade</ul>
-            <ul>Gestão de tempo</ul>
-            <ul>Trabalho em equipe</ul>
-            <ul>Comunicação</ul>
-          </ul>
-        </section>
-        <div class="curve">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="#e4e4e4"
-              fill-opacity="1"
-              d="M0,288L1440,192L1440,320L0,320Z"
-            ></path>
-          </svg>
-        </div>
         <section id="contactSec">
           <h2>Contatos</h2>
           <p>Gostou? Entre em contato comigo :D!</p>

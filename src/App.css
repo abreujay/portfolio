@@ -435,19 +435,6 @@ main .Projects p {
 
 }
 
-#softSec {
-
-  background-color: #48356B;
-  height: 450px;
-  color: #e4e4e4;
-
-}
-
-#softSec h2 {
-
-  padding-top: 40px;
-  
-}
 
 #skillSec h2 {
 
@@ -469,20 +456,10 @@ main .Projects p {
 
 }
 
-#softSec ul {
-
-  list-style: armenian;
-  gap: 10px;
-  color: #4CE082;
-  margin-top: 20px;
-  font-size: 20px;
-
-}
-
 #contactSec {
   text-align: center;
   padding: 20px;
-  background-color: #e4e4e4; 
+  background-color: #48356B; 
 }
 
 #contactSec h2 {
@@ -493,7 +470,7 @@ main .Projects p {
 
 #contactSec p {
   font-size: 1.2rem; 
-  color: #666; 
+  color: #e4e4e4; 
   margin-bottom: 20px; 
 }
 
@@ -539,7 +516,7 @@ footer {
   .curve {
 
     position: absolute;
-    top: 20px;
+    top: 0px;
     opacity: 0;
 
   }
@@ -733,24 +710,6 @@ footer {
 
   }
 
-  #softSec {
-
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 5rem;
-
-  }
-
-  #softSec ul {
-
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-
-  }
 
 }
 
