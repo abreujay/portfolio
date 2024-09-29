@@ -244,7 +244,7 @@ function App() {
             <a href="https://www.instagram.com/abreu.jay/">
               <img src={instagram} alt="instagram" />
             </a>
-            <a href="mailto:devmxge@outlook.com">
+            <a href="mailto:codigojay@gmail.com">
               <img src={email} alt="instagram" />
             </a>
           </div>
