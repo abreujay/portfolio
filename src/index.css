@@ -21,3 +21,14 @@ main {
   overflow-x: hidden;
   
 }
+
+@media (min-width: 800){
+
+  html,
+  body {
+
+    height: 3580px;
+    
+  }
+  
+}
