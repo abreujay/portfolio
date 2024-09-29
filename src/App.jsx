@@ -137,7 +137,7 @@ function App() {
             <h3>CriptoWatcher</h3>
             <p>
               Projeto que permite o usuário a obter informações de CRIPTOMOEDAS,
-              utilizando a API da CoinGecko. Desenvolvida em TypeScript
+              utilizando a API da CoinGecko. Desenvolvida em TypeScript.
             </p>
             <a
               href="https://crypto-watcher-nine.vercel.app"
