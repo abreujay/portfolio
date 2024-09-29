@@ -235,7 +235,7 @@ function App() {
           <h2>Contatos</h2>
           <p>Gostou? Entre em contato comigo :D!</p>
           <div className="btn-container">
-            <a href="wa.me/5549988450441">
+            <a href="https://wa.me/5549988450441">
               <img src={whatsapp} alt="whatsapp" />
             </a>
             <a href="https://github.com/abreujay">
